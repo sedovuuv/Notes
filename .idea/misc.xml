@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/backgr_delete.xml" value="0.21447368421052632" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/backgr_miscell.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/backgr_note_color.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/backgr_note_color2.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/backgr_note_color3.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/backgr_note_color4.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/backgr_note_color5.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/background_add_btn.xml" value="0.24210526315789474" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/background_dialog.xml" value="0.22697368421052633" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/background_done_button.xml" value="0.24210526315789474" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/background_note.xml" value="0.1394736842105263" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/background_search.xml" value="0.24210526315789474" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/background_subtitle_indicator.xml" value="0.24210526315789474" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/baclgr_delete.xml" value="0.22697368421052633" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_add.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_back.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_calendar.xml" value="0.21447368421052632" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_done.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_image_addition.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1401315789473684" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_note_addition.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_search.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_calendar.xml" value="0.22" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_create_note.xml" value="0.23190789473684212" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/calendar_cell.xml" value="0.21414473684210528" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/item_container_note.xml" value="0.1" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_add_url.xml" value="0.21414473684210528" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_calendar.xml" value="0.22" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_delete_note.xml" value="0.21414473684210528" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_miscellan.xml" value="0.19063545150501673" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/settings_activity.xml" value="0.20164473684210527" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

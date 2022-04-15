@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorDarkPrimary">#292929</color>
+    <color name="colorDarkAccent">#FDBE3B</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorIcons">#DBDBDB</color>
+    <color name="colorTextHint">#7B7B7B</color>
+    <color name="colorActionsBackground">#7B7B7B</color>
+    <color name="colorIcons2">#A4A4A4</color>
+    <color name="colorTextSubtitle">#DBDBDB</color>
+    <color name="colorDarkBackground">#1F1F1F</color>
+    <color name="colorNoteColorsLightTheme1">#FDBE3B</color>
+    <color name="colorNoteColorsLightTheme2">#673AB7</color>
+
+    <color name="colorNoteColorsLightTheme3">#F44336</color>
+
+    <color name="colorNoteColorsLightTheme4">#4CAF50</color>
+    <color name="colorNoteColorsLightTheme5">#3F51B5</color>
+
+    <color name="colorSBackround">#333333</color>
+
+
+
+
+
+</resources>
