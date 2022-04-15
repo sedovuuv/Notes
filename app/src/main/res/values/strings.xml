@@ -1,24 +1,24 @@
 <resources>
-    <string name="app_name">Notes</string>
-    <string name="search_notes">Search notes</string>
-    <string name="note_title">Note title</string>
-    <string name="note_subtitle">Note subtitle</string>
-    <string name="type_note_here">Type note here...</string>
-    <string name="miscellaneous">Miscellaneous</string>
-    <string name="pick_color">Pick color</string>
-    <string name="add_image">Add image</string>
-    <string name="add_url">Add URL</string>
-    <string name="enter_url">Enter URL</string>
-    <string name="add">Add</string>
-    <string name="delete_note">Delete note</string>
-    <string name="are_you_sure_you_want_to_delete_this_note">Are you sure you want to delete this note?</string>
-    <string name="cancel">Cancel</string>
-    <string name="change_app_theme">Change app theme</string>
-    <string name="change_app_theme_to_light_dark">Change app theme to light/dark</string>
-    <string name="about_app">About app</string>
-    <string name="app_description">App description</string>
-    <string name="app_theme">App theme</string>
-    <string name="change_app_theme_to_dark_light">Change app theme to dark/light</string>
+    <string name="app_name">Заметки</string>
+    <string name="search_notes">Искать в заметках</string>
+    <string name="note_title">Заголовок</string>
+    <string name="note_subtitle">Подзаголовок</string>
+    <string name="type_note_here">Пишите текст здесь</string>
+    <string name="miscellaneous">Добавление</string>
+    <string name="pick_color">Выберите цвет</string>
+    <string name="add_image">Добавить изображение</string>
+    <string name="add_url">Добавить URL</string>
+    <string name="enter_url">Введите URL</string>
+    <string name="add">Добавить</string>
+    <string name="delete_note">Удалить заметку</string>
+    <string name="are_you_sure_you_want_to_delete_this_note">Вы уверены что хотите удалить эту заметку?</string>
+    <string name="cancel">Отменить</string>
+    <string name="change_app_theme">Сменить тему приложения</string>
+    <string name="change_app_theme_to_light_dark">Сменить тему на светлую/темную</string>
+    <string name="about_app">О приложении</string>
+    <string name="app_description">Описание приложения</string>
+    <string name="app_theme">Тема приложения</string>
+    <string name="change_app_theme_to_dark_light">Сменить тему на светлую/темную</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
     <!-- Preference Titles -->
