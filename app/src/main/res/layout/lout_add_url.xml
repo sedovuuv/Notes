@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_margin="@dimen/_10sdp"
-    android:background="@drawable/background_dialog">
+    android:background="@drawable/bgr_dialog">
 
     <ImageView
         android:id="@+id/imgAddUrl"
@@ -19,17 +19,17 @@
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/colorWhite" />
+        app:tint="@color/colorIcons" />
 
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"
-        android:fontFamily="@font/ubuntu_bold"
+        android:fontFamily="@font/ubuntu_regular"
         android:includeFontPadding="false"
         android:text="@string/add_url"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorBlack"
         android:textSize="@dimen/_14ssp"
 
         app:layout_constraintBottom_toBottomOf="@+id/imgAddUrl"
@@ -54,7 +54,7 @@
         android:inputType="textUri"
         android:paddingStart="@dimen/_8sdp"
         android:paddingEnd="@dimen/_8sdp"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorBlack"
         android:textColorHint="@color/colorTextHint"
         android:textSize="@dimen/_13ssp"
 
@@ -70,7 +70,7 @@
         android:includeFontPadding="false"
         android:padding="@dimen/_8sdp"
         android:text="@string/add"
-        android:textColor="@color/colorDarkAccent"
+        android:textColor="@color/colorAccent"
         android:textSize="@dimen/_13ssp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +88,7 @@
         android:includeFontPadding="false"
         android:padding="@dimen/_8sdp"
         android:text="@string/cancel"
-        android:textColor="@color/colorDarkAccent"
+        android:textColor="@color/colorNoteColors3"
         android:textSize="@dimen/_13ssp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textAdd"

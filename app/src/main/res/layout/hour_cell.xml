@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="@dimen/_55sdp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/timeTV"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/timeHour"
+        android:fontFamily="@font/ubuntu_regular"/>
+
+    <LinearLayout
+        android:background="@color/colorIcons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_5sdp"
+        android:backgroundTint="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@color/colorSBackround"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/event1"
+            android:textSize="@dimen/_9ssp"
+            android:lines="2"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="@string/event1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@color/colorSBackround"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/event2"
+            android:textSize="@dimen/_9ssp"
+            android:lines="2"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="@string/event2"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@color/colorSBackround"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/event3"
+            android:textSize="@dimen/_9ssp"
+            android:lines="2"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="@string/event3"/>
+
+    </LinearLayout>
+
+</LinearLayout>

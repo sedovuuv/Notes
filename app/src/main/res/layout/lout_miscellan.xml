@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/backgr_miscell"
+    android:background="@drawable/bgr_miscell"
     app:behavior_hideable="true"
     app:behavior_peekHeight="56dp"
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
@@ -20,7 +20,7 @@
         android:gravity="center"
         android:includeFontPadding="false"
         android:text="@string/miscellaneous"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorBlack"
         android:textSize="@dimen/_13ssp"
         />
     <LinearLayout
@@ -39,7 +39,7 @@
                 android:id="@+id/viewColor1"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
-                android:background="@drawable/backgr_note_color"/>
+                android:background="@drawable/bgr_note_color"/>
             <ImageView
                 android:id="@+id/imgColor1"
                 android:layout_width="@dimen/_35sdp"
@@ -47,7 +47,7 @@
                 android:contentDescription="@string/app_name"
                 android:padding="@dimen/_10sdp"
                 android:src="@drawable/ic_done"
-                app:tint="@color/colorWhite"
+                app:tint="@color/colorBlack"
 
                 />
 
@@ -63,14 +63,14 @@
                 android:id="@+id/viewColor2"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
-                android:background="@drawable/backgr_note_color2"/>
+                android:background="@drawable/bgr_note_color2"/>
             <ImageView
                 android:id="@+id/imgColor2"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
                 android:contentDescription="@string/app_name"
                 android:padding="@dimen/_10sdp"
-                app:tint="@color/colorWhite"
+                app:tint="@color/colorBlack"
 
                 />
 
@@ -85,14 +85,14 @@
                 android:id="@+id/viewColor3"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
-                android:background="@drawable/backgr_note_color3"/>
+                android:background="@drawable/bgr_note_color3"/>
             <ImageView
                 android:id="@+id/imgColor3"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
                 android:contentDescription="@string/app_name"
                 android:padding="@dimen/_10sdp"
-                app:tint="@color/colorWhite"
+                app:tint="@color/colorBlack"
 
                 />
 
@@ -108,14 +108,14 @@
                 android:id="@+id/viewColor4"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
-                android:background="@drawable/backgr_note_color4"/>
+                android:background="@drawable/bgr_note_color4"/>
             <ImageView
                 android:id="@+id/imgColor4"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
                 android:contentDescription="@string/app_name"
                 android:padding="@dimen/_10sdp"
-                app:tint="@color/colorWhite"
+                app:tint="@color/colorBlack"
 
                 />
 
@@ -131,14 +131,14 @@
                 android:id="@+id/viewColor5"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
-                android:background="@drawable/backgr_note_color5"/>
+                android:background="@drawable/bgr_note_color5"/>
             <ImageView
                 android:id="@+id/imgColor5"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
                 android:contentDescription="@string/app_name"
                 android:padding="@dimen/_10sdp"
-                app:tint="@color/colorWhite"
+                app:tint="@color/colorBlack"
 
                 />
 
@@ -150,7 +150,7 @@
             android:fontFamily="@font/ubuntu_medium"
             android:includeFontPadding="false"
             android:text="@string/pick_color"
-            android:textColor="@color/colorWhite"
+            android:textColor="@color/colorBlack"
             android:textSize="@dimen/_13ssp"
 
             />
@@ -229,7 +229,7 @@
             android:layout_height="@dimen/_22sdp"
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_delete"
-            app:tint="@color/colorNoteColorsLightTheme3"/>
+            app:tint="@color/colorNoteColors3"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -237,7 +237,7 @@
             android:fontFamily="@font/ubuntu_medium"
             android:includeFontPadding="false"
             android:text="@string/delete_note"
-            android:textColor="@color/colorNoteColorsLightTheme3"
+            android:textColor="@color/colorNoteColors3"
             android:textSize="@dimen/_12ssp"/>
 
 

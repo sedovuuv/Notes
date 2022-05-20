@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activites.EventEditActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="Событие:"
+        android:textSize="@dimen/_15sdp"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/ubuntu_medium"/>
+
+    <EditText
+        android:id="@+id/eventNameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="@dimen/_15ssp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/eventDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="@string/date"
+        android:textSize="@dimen/_15ssp"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/eventTimeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="@string/time"
+        android:textSize="@dimen/_15ssp"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="@font/ubuntu_regular"
+        android:onClick="saveEventAction"
+        android:text="@string/save"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_15ssp"
+        app:cornerRadius="@dimen/_25sdp" />
+
+</LinearLayout>

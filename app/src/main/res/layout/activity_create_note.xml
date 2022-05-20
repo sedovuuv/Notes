@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorDarkPrimary"
+    android:background="@color/colorPrimary"
     tools:context=".activites.CreateNoteActivity">
     <ScrollView
         android:layout_width="match_parent"
@@ -35,7 +35,6 @@
                 android:layout_width="@dimen/_20sdp"
                 android:layout_height="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_12sdp"
-                android:background="@drawable/background_done_button"
                 android:contentDescription="@string/app_name"
                 android:padding="@dimen/_4sdp"
                 android:src="@drawable/ic_done"
@@ -60,7 +59,7 @@
                 android:importantForAutofill="no"
                 android:includeFontPadding="false"
                 android:inputType="text"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorBlack"
                 android:textColorHint="@color/colorTextHint"
                 android:textSize="@dimen/_16ssp"
                 app:layout_constraintTop_toBottomOf="@+id/imgBack"
@@ -104,7 +103,7 @@
                 android:layout_width="@dimen/_5sdp"
                 android:layout_height="0dp"
                 android:layout_marginStart="@dimen/_12sdp"
-                android:background="@drawable/background_subtitle_indicator"
+                android:background="@drawable/bgr_subtitle_indicator"
                 app:layout_constraintBottom_toBottomOf="@+id/inputNSubtitle"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/inputNSubtitle"
@@ -127,7 +126,7 @@
                 android:layout_height="@dimen/_25sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                android:background="@drawable/backgr_delete"
+                android:background="@drawable/bgr_delete"
                 android:contentDescription="@string/app_name"
                 android:padding="@dimen/_4sdp"
                 android:src="@drawable/ic_delete"
@@ -135,7 +134,7 @@
                 app:layout_constraintEnd_toEndOf="@+id/imgNote"
                 app:layout_constraintTop_toTopOf="@+id/imgNote"
 
-                app:tint="@color/colorWhite" />
+                app:tint="@color/colorBlack" />
 
 
             <LinearLayout
@@ -166,7 +165,7 @@
                     android:contentDescription="@string/app_name"
                     android:src="@drawable/ic_delete"
 
-                    app:tint="@color/colorNoteColorsLightTheme3" />
+                    app:tint="@color/colorBlack" />
             </LinearLayout>
             
             <EditText
@@ -185,7 +184,7 @@
                 android:includeFontPadding="false"
                 android:inputType="textMultiLine"
                 android:minHeight="@dimen/_100sdp"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorBlack"
                 android:textColorHint="@color/colorTextHint"
                 android:textSize="@dimen/_13ssp"
                 app:layout_constraintBottom_toBottomOf="parent"

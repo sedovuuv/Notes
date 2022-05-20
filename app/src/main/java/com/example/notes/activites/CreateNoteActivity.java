@@ -244,7 +244,7 @@ public class CreateNoteActivity extends AppCompatActivity {
         layoutMiscellaneous.findViewById(R.id.viewColor1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                selectedNoteColor = "#333333";
+                selectedNoteColor = "#DBDBDB";
                 imgColor1.setImageResource(R.drawable.ic_done);
                 imgColor2.setImageResource(0);
                 imgColor3.setImageResource(0);

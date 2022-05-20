@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="@dimen/_12sdp"
     android:layout_marginTop="@dimen/_12sdp"
-    android:background="@drawable/background_note">
+    android:background="@drawable/bgr_note">
     <com.makeramen.roundedimageview.RoundedImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,21 +29,22 @@
         android:layout_marginEnd="@dimen/_8sdp"
         android:fontFamily="@font/ubuntu_bold"
         android:includeFontPadding="false"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorPrimary"
         android:textSize="@dimen/_13ssp"
         />
+
     <TextView
 
+        android:id="@+id/textSubtitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textSubtitle"
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginTop="@dimen/_4sdp"
         android:layout_marginEnd="@dimen/_8sdp"
         android:layout_marginBottom="@dimen/_4sdp"
         android:fontFamily="@font/ubuntu_regular"
         android:includeFontPadding="false"
-        android:textColor="@color/colorTextSubtitle"
+        android:textColor="@color/colorPrimary"
         android:textSize="@dimen/_13ssp"
 
 
@@ -57,8 +58,7 @@
         android:layout_marginEnd="@dimen/_8sdp"
         android:layout_marginBottom="@dimen/_8sdp"
         android:fontFamily="@font/ubuntu_regular"
-        android:includeFontPadding="false"
-        android:textColor="@color/colorTextSubtitle"
+        android:textColor="@color/colorPrimary"
         android:textSize="@dimen/_7ssp"
 
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorSBackround">#555555</color>
+    <color name="colorPrimary">#292929</color>
+
+    <color name="colorAccent">#767676</color>
+    <color name="colorAccent2">#FDBE3B</color>
+    <color name="colorBlack">#FFFFFF</color>
+    <color name="colorIcons">#DBDBDB</color>
+    <color name="colorTextHint">#7B7B7B</color>
+    <color name="colorActionsBackground">#7B7B7B</color>
+    <color name="colorIcons2">#A4A4A4</color>
+    <color name="colorTextSubtitle">#DBDBDB</color>
+    <color name="colorBackground">#1F1F1F</color>
+    <color name="colorNoteColors1">#FFFFFF</color>
+    <color name="colorNoteColors2">#673AB7</color>
+    <color name="colorNoteColors3">#F44336</color>
+    <color name="colorNoteColors4">#4CAF50</color>
+    <color name="colorNoteColors5">#3F51B5</color>
+
+
+
+
+</resources>

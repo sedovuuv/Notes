@@ -23,6 +23,7 @@ import com.example.notes.database.NotesDatabase;
 import com.example.notes.entities.Note;
 import com.example.notes.listeners.NotesListener;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
     public static final int REQUEST_CODE_ADD_NOTE = 1;
     public static final int REQUEST_CODE_UPDATE_NOTE = 2;
     public static final int REQUEST_CODE_SHOW_NOTES = 3;
+    public static final boolean THEME = true;
 
 
     private RecyclerView notesRecyclerView;
@@ -135,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
         class GetNoteTask extends AsyncTask<Void, Void, List<Note>>{
             @Override
             protected List<Note> doInBackground(Void... voids) {
-                return NotesDatabase.getDatabase(getApplicationContext()).noteDao().getAllNotes();
+                return (List<Note>) NotesDatabase.getDatabase(getApplicationContext()).noteDao().getAllNotes();
             }
 
             @SuppressLint("NotifyDataSetChanged")

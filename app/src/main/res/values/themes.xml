@@ -2,11 +2,12 @@
     <!-- Base application theme. -->
     <style name="Theme.Notes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/colorDarkPrimary</item>
-        <item name="colorPrimaryVariant">@color/colorDarkBackground</item>
-        <item name="colorOnPrimary">@color/colorWhite</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnBackground">@color/colorBackground</item>
+        <item name="colorPrimaryVariant">@color/colorBackground</item>
+        <item name="colorOnPrimary">@color/colorBlack</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/colorDarkAccent</item>
+        <item name="colorSecondary">@color/colorAccent</item>
         <item name="colorSecondaryVariant">@color/colorActionsBackground</item>
         <item name="colorOnSecondary">@color/colorTextHint</item>
         <!-- Status bar color. -->

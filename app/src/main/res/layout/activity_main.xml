@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorDarkPrimary"
+    android:background="@color/colorPrimary"
     tools:context=".activites.MainActivity">
     <TextView
         android:id="@+id/textMNotes"
@@ -16,7 +16,7 @@
         android:fontFamily="@font/ubuntu_bold"
         android:includeFontPadding="false"
         android:text="Notes:"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorBlack"
         android:textSize="@dimen/_20ssp"
         app:layout_constraintTop_toTopOf="parent"
 
@@ -30,7 +30,7 @@
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginEnd="@dimen/_8sdp"
-        android:background="@drawable/background_search"
+        android:background="@drawable/bgr_search"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingStart="@dimen/_10sdp"
@@ -54,7 +54,7 @@
             android:importantForAutofill="no"
             android:includeFontPadding="false"
             android:inputType="text"
-            android:textColor="@color/colorWhite"
+            android:textColor="@color/colorBlack"
             android:textColorHint="@color/colorTextHint"
             android:textSize="@dimen/_13ssp"
 
@@ -110,17 +110,17 @@
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
         android:layout_marginEnd="@dimen/_30sdp"
-        android:background="@drawable/background_add_btn"
+        android:background="@drawable/bgr_add_btn"
         android:contentDescription="@string/app_name"
         android:padding="@dimen/_5sdp"
         android:src="@drawable/ic_add"
-        app:tint="@color/colorDarkPrimary"
+        app:tint="@color/colorBlack"
         app:layout_constraintBottom_toTopOf="@+id/loutQuickActions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/loutQuickActions"
         />
 
 
-        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

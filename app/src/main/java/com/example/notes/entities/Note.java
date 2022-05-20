@@ -1,13 +1,16 @@
 package com.example.notes.entities;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.room.ColumnInfo;
+import androidx.room.Database;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 import java.io.Serializable;
 
 @Entity(tableName = "notes")
-public class Note implements Serializable {
+public class Note implements Serializable{
     @PrimaryKey(autoGenerate = true)
     private int id;
 
@@ -95,7 +98,7 @@ public class Note implements Serializable {
     public String getWebLink() {
         return webLink;
     }
-
+    @NonNull
     @Override
     public String toString() {
         return title + ":" + datetime;
