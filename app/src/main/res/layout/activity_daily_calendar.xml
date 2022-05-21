@@ -35,11 +35,11 @@
             android:textColor="@color/colorTextHint"
             android:background="@null"
             android:textStyle="bold"
-            android:onClick="previousDayAction"
+            android:id="@+id/prevDayAction"
             android:textSize="@dimen/_10sdp"/>
 
         <TextView
-            android:id="@+id/monthDayText"
+            android:id="@+id/mnthDTxt"
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="wrap_content"
@@ -57,13 +57,13 @@
             android:textColor="@color/colorTextHint"
             android:background="@null"
             android:textStyle="bold"
-            android:onClick="nextDayAction"
+            android:id="@+id/nxtDatAction"
             android:textSize="@dimen/_10sdp"/>
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/dayOfWeekTV"
+        android:id="@+id/weekDay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/suturnday"
@@ -79,13 +79,13 @@
         android:text="@string/newEvent"
         android:textColor="@color/colorAccent"
         android:background="@null"
-        android:onClick="newEventAction"
+        android:id="@+id/nEventAction"
         android:layout_gravity="center"
         android:textSize="@dimen/_10sdp"
         android:fontFamily="@font/ubuntu_medium"/>
 
     <ListView
-        android:id="@+id/hourListView"
+        android:id="@+id/hrLView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5"/>

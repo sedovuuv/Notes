@@ -8,7 +8,7 @@ import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
-public class CalendarUtils {
+public class CalUtils {
     public static LocalDate selectedDate;
 
     public static String formattedDate(LocalDate date) {
@@ -48,7 +48,7 @@ public class CalendarUtils {
         YearMonth prevYearMonth = YearMonth.from(prevMonth);
         int prevDaysInMonth = prevYearMonth.lengthOfMonth();
 
-        LocalDate firstOfMonth = CalendarUtils.selectedDate.withDayOfMonth(1);
+        LocalDate firstOfMonth = CalUtils.selectedDate.withDayOfMonth(1);
         int dayOfWeek = firstOfMonth.getDayOfWeek().getValue();
 
         for(int i = 1; i <= 42; i++) {

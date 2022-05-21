@@ -2,18 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/loutMiscell"
+    android:id="@+id/loutChanger"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bgr_miscell"
+    android:background="@drawable/bgr_changer"
     app:behavior_hideable="true"
     app:behavior_peekHeight="56dp"
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
 
     >
     <TextView
-        android:id="@+id/textMiscellaneous"
+        android:id="@+id/txtMiscellaneous"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_40sdp"
         android:fontFamily="@font/ubuntu_medium"
@@ -24,7 +24,7 @@
         android:textSize="@dimen/_13ssp"
         />
     <LinearLayout
-        android:id="@+id/loutNoteColor"
+        android:id="@+id/loutNColor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/_10sdp"

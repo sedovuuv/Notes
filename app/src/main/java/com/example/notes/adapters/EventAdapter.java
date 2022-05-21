@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 
 import com.example.notes.R;
 import com.example.notes.entities.Event;
-import com.example.notes.utils.CalendarUtils;
+import com.example.notes.utils.CalUtils;
 
 import java.util.List;
 
@@ -23,16 +23,15 @@ public class EventAdapter extends ArrayAdapter<Event> {
 
     @NonNull
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        Event event = getItem(position);
+    public View getView(int pos, @Nullable View conView, @NonNull ViewGroup par) {
+        Event event = getItem(pos);
 
-        if (convertView == null)
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.event_cell, parent, false);
+        if (conView == null) {conView = LayoutInflater.from(getContext()).inflate(R.layout.event_cell, par, false);}
 
-        TextView eventCellTV = convertView.findViewById(R.id.eventCellTV);
+        TextView eventCell = conView.findViewById(R.id.eventCell);
 
-        String eventTitle = event.getName() +" "+ CalendarUtils.formattedTime(event.getTime());
-        eventCellTV.setText(eventTitle);
-        return convertView;
+        String eTitle = event.getName() +" "+ CalUtils.formattedTime(event.getTime());
+        eventCell.setText(eTitle);
+        return conView;
     }
 }

@@ -9,36 +9,34 @@ import android.widget.TextView;
 
 import com.example.notes.R;
 import com.example.notes.entities.Event;
-import com.example.notes.utils.CalendarUtils;
+import com.example.notes.utils.CalUtils;
 
 import java.time.LocalTime;
 
 public class EventEditActivity extends AppCompatActivity {
-    private EditText eventNameET;
-    private TextView eventDateTV, eventTimeTV;
-
+    private EditText nameOfEvent;
     private LocalTime time;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_edit);
-        initWidgets();
+
+        nameOfEvent = findViewById(R.id.eventName);
+        TextView eventDate = findViewById(R.id.eventDate);
+        TextView eventTime = findViewById(R.id.eventTime);
         time = LocalTime.now();
-        eventDateTV.setText("Date: " + CalendarUtils.formattedDate(CalendarUtils.selectedDate));
-        eventTimeTV.setText("Time: " + CalendarUtils.formattedTime(time));
+
+        eventDate.setText("Date: " + CalUtils.formattedDate(CalUtils.selectedDate));
+        eventTime.setText("Time: " + CalUtils.formattedTime(time));
+
     }
 
-    private void initWidgets() {
-        eventNameET = findViewById(R.id.eventNameET);
-        eventDateTV = findViewById(R.id.eventDateTV);
-        eventTimeTV = findViewById(R.id.eventTimeTV);
-    }
 
-    public void saveEventAction(View view) {
-        String eventName = eventNameET.getText().toString();
-        Event newEvent = new Event(eventName, CalendarUtils.selectedDate, time);
-        Event.eventsList.add(newEvent);
+    public void saveAction(View view) {
+        String eventName = nameOfEvent.getText().toString();
+        Event nEvent = new Event(eventName, CalUtils.selectedDate, time);
+        Event.eventsList.add(nEvent);
         finish();
     }
 }

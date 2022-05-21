@@ -27,6 +27,7 @@
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_delete.xml" value="0.21447368421052632" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_dialog.xml" value="0.21447368421052632" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_done_btn.xml" value="0.15756578947368421" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_note.xml" value="0.22697368421052633" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_note_color.xml" value="0.14276315789473684" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_note_color2.xml" value="0.14276315789473684" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_note_color3.xml" value="0.14276315789473684" />
@@ -60,6 +61,7 @@
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/item_container_note.xml" value="0.18" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_add_url.xml" value="0.21414473684210528" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_calendar.xml" value="0.22" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_changer.xml" value="0.20164473684210527" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_changing_themes.xml" value="0.33" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_delete_note.xml" value="0.21414473684210528" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_miscellan.xml" value="0.19063545150501673" />

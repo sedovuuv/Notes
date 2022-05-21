@@ -10,7 +10,7 @@
         android:layout_width="@dimen/_55sdp"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:id="@+id/timeTV"
+        android:id="@+id/time"
         android:textSize="@dimen/_15sdp"
         android:textColor="@color/colorBlack"
         android:text="@string/timeHour"

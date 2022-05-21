@@ -14,25 +14,25 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/_15sdp"
-        android:text="Событие:"
+        android:text="@string/events"
         android:textSize="@dimen/_15sdp"
         android:textAlignment="center"
         android:textColor="@color/colorBlack"
         android:fontFamily="@font/ubuntu_medium"/>
 
     <EditText
-        android:id="@+id/eventNameET"
+        android:id="@+id/eventName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
         android:inputType="text"
-        android:minHeight="48dp"
+        android:minHeight="@dimen/_30sdp"
         android:textSize="@dimen/_15ssp"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/eventDateTV"
+        android:id="@+id/eventDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -43,7 +43,7 @@
         android:textColor="@color/colorBlack"/>
 
     <TextView
-        android:id="@+id/eventTimeTV"
+        android:id="@+id/eventTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -60,7 +60,7 @@
         android:layout_marginTop="@dimen/_15sdp"
         android:backgroundTint="@color/colorAccent"
         android:fontFamily="@font/ubuntu_regular"
-        android:onClick="saveEventAction"
+        android:onClick="saveAction"
         android:text="@string/save"
         android:textColor="@color/colorBlack"
         android:textSize="@dimen/_15ssp"

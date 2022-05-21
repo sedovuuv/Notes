@@ -1,6 +1,5 @@
 package com.example.notes.adapters;
 
-import android.annotation.SuppressLint;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
@@ -22,24 +21,22 @@ import com.makeramen.roundedimageview.RoundedImageView;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.logging.LogRecord;
 
 public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHolder>{
 
     private List<Note> notes;
-    private NotesListener notesListener;
+    private final NotesListener nListener;
     private Timer timer;
-    private List<Note> notesSource;
+    private final List<Note> nSource;
 
 
 
-    public NotesAdapter(List<Note> notes, NotesListener notesListener) {
+    public NotesAdapter(List<Note> notes, NotesListener nListener) {
         this.notes = notes;
-        this.notesListener = notesListener;
-        notesSource = notes;
+        this.nListener = nListener;
+        nSource = notes;
     }
 
 
@@ -54,7 +51,7 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHold
     @Override
     public void onBindViewHolder(@NonNull NoteViewHolder holder, final int position) {
         holder.setNote(notes.get(position));
-        holder.loutNote.setOnClickListener(view -> notesListener.onNoteClicked(notes.get(position), position));
+        holder.loutNote.setOnClickListener(view -> nListener.onClicked(notes.get(position), position));
 
     }
 
@@ -64,21 +61,21 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHold
     }
 
     @Override
-    public int getItemViewType(int position) {
-        return position;
+    public int getItemViewType(int pos) {
+        return pos;
     }
 
     static class NoteViewHolder extends RecyclerView.ViewHolder{
 
-        TextView textTitle, textSubtitle, textDateTime;
+        TextView txtTitle, txtSubtitle, txtDTime;
         LinearLayout loutNote;
         RoundedImageView imgNote;
 
         NoteViewHolder(@NonNull View itemView){
             super(itemView);
-            textTitle = itemView.findViewById(R.id.textTitle);
-            textSubtitle = itemView.findViewById(R.id.textSubtitle);
-            textDateTime = itemView.findViewById(R.id.textDateTime);
+            txtTitle = itemView.findViewById(R.id.textTitle);
+            txtSubtitle = itemView.findViewById(R.id.textSubtitle);
+            txtDTime = itemView.findViewById(R.id.textDateTime);
             loutNote = itemView.findViewById(R.id.loutNote);
             imgNote = itemView.findViewById(R.id.imgNote);
 
@@ -86,32 +83,17 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHold
         }
 
         void setNote(Note note){
-            textTitle.setText(note.getTitle());
-            if(note.getSubtitle().trim().isEmpty()){
-                textSubtitle.setVisibility(View.GONE);
-
-            } else {
-                textSubtitle.setText(note.getSubtitle());
-            }
-            textDateTime.setText(note.getDatetime());
+            txtTitle.setText(note.getTitle());
+            if(note.getSubtitle().trim().isEmpty()){ txtSubtitle.setVisibility(View.GONE); } else { txtSubtitle.setText(note.getSubtitle()); }
+            txtDTime.setText(note.getDatetime());
 
             GradientDrawable gradientDrawable = (GradientDrawable) loutNote.getBackground();
-            if(note.getColor() != null){
-
-                gradientDrawable.setColor(Color.parseColor(note.getColor()));
-
-            } else {
-                gradientDrawable.setColor(Color.parseColor("#333333"));
-            }
+            if(note.getColor() != null){ gradientDrawable.setColor(Color.parseColor(note.getColor())); }
+            else { gradientDrawable.setColor(Color.parseColor("#333333")); }
             if(note.getImagePath() != null){
-
                 imgNote.setImageBitmap(BitmapFactory.decodeFile(note.getImagePath()));
                 imgNote.setVisibility(View.VISIBLE);
-
-            } else {
-                imgNote.setVisibility(View.GONE);
-
-            }
+            } else { imgNote.setVisibility(View.GONE); }
         }
 
 
@@ -122,25 +104,17 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHold
             @Override
             public void run() {
                 if(searchKeyword.trim().isEmpty()){
-                    notes = notesSource;
+                    notes = nSource;
                 } else {
-                    ArrayList<Note> temp = new ArrayList<>();
-                    for (Note note : notesSource){
-                        if(note.getTitle().toLowerCase().contains(searchKeyword.toLowerCase())
-                                || note.getSubtitle().toLowerCase().contains(searchKeyword.toLowerCase())
-                                || note.getNoteText().toLowerCase().contains(searchKeyword.toLowerCase())){
-                            temp.add(note);
+                    ArrayList<Note> tmp = new ArrayList<>();
+                    for (Note note : nSource){
+                        if(note.getTitle().toLowerCase().contains(searchKeyword.toLowerCase()) || note.getSubtitle().toLowerCase().contains(searchKeyword.toLowerCase()) || note.getNoteText().toLowerCase().contains(searchKeyword.toLowerCase())){
+                            tmp.add(note);
                         }
                     }
-                    notes = temp;
+                    notes = tmp;
                 }
-                new Handler(Looper.getMainLooper()).post(new Runnable() {
-                    @Override
-                    public void run() {
-                        notifyDataSetChanged();
-                    }
-
-                });
+                new Handler(Looper.getMainLooper()).post(() -> notifyDataSetChanged());
 
             }
         }, 500);

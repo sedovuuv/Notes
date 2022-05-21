@@ -29,7 +29,7 @@
         android:text="@string/to_day_plan"
         android:textColor="@color/colorAccent"
         android:backgroundTint="@color/colorPrimary"
-        android:onClick="dailyAction"
+        android:id="@+id/dlyAction"
         android:fontFamily="@font/ubuntu_regular"
         android:textSize= "@dimen/_10sdp"/>
 
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/ubuntu_bold"
-            android:onClick="previousWeekAction"
+            android:id="@+id/prevWAction"
             android:src="@drawable/ic_back"
             android:textColor="@color/colorTextHint"
             app:tint="@color/colorIcons2"
@@ -67,7 +67,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:onClick="previousWeekAction"
+            android:id="@+id/nxtWAction"
             android:src="@drawable/ic_next"
             app:tint="@color/colorIcons2"
             android:textSize="@dimen/_20sdp"
@@ -148,7 +148,7 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/calendarRecyclerView"
+        android:id="@+id/calRecView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -160,7 +160,7 @@
         android:text="@string/newEvent"
         android:textColor="@color/colorAccent"
         android:backgroundTint="@color/colorPrimary"
-        android:onClick="newEventAction"
+        android:id="@+id/nEventAction"
         android:layout_gravity="center"
         android:textSize="@dimen/_10sdp"/>
 

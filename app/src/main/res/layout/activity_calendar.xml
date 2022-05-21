@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:backgroundTint="@color/colorPrimary"
             android:fontFamily="@font/ubuntu_regular"
-            android:onClick="weeklyAction"
+            android:id="@+id/weeklyAction"
             android:text="@string/to_weekly_plan"
             android:textColor="@color/colorBlack"
             android:textSize="@dimen/_10sdp" />
@@ -54,11 +54,11 @@
                 android:textColor="@color/colorTextHint"
                 android:background="@null"
                 android:textStyle="bold"
-                android:onClick="previousMonthAction"
+                android:id="@+id/prevMnthAction"
                 />
 
             <TextView
-                android:id="@+id/monthYearTV"
+                android:id="@+id/mnthYear"
                 android:layout_width="0dp"
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
@@ -77,7 +77,8 @@
                 android:textColor="@color/colorTextHint"
                 android:background="@null"
                 android:textStyle="bold"
-                android:onClick="nextMonthAction"/>
+                android:id="@+id/nxtMnthAction"
+                />
 
         </LinearLayout>
 
@@ -154,7 +155,7 @@
 
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/calendarRecyclerView"
+            android:id="@+id/calRecView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorPrimary"/>

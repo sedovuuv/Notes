@@ -195,7 +195,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
-    <include layout="@layout/lout_miscellan"/>
+    <include layout="@layout/lout_changer"/>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
