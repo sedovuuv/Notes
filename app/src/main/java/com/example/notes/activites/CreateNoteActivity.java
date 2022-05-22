@@ -388,8 +388,6 @@ public class CreateNoteActivity extends AppCompatActivity {
 
         }
 
-
-
     }
 
     @Override

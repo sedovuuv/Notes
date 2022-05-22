@@ -37,33 +37,24 @@ public class DailyCalendarActivity extends AppCompatActivity {
         mnthDTxt = findViewById(R.id.mnthDTxt);
         dayOfWeekTxt = findViewById(R.id.weekDay);
         hourLView = findViewById(R.id.hrLView);
-        ImageButton prevBtn = findViewById(R.id.prevMnthAction);
-        ImageButton nxtBtn = findViewById(R.id.nxtMnthAction);
+        ImageButton prevBtn = findViewById(R.id.prevDayAction);
+        ImageButton nxtBtn = findViewById(R.id.nxtDatAction);
         Button nEvent = findViewById(R.id.nEventAction);
 
-        prevBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                selectedDate = selectedDate.minusDays(1);
-                setDView();
+        prevBtn.setOnClickListener(view -> {
+            selectedDate = selectedDate.minusDays(1);
+            setDView();
 
-            }
         });
-        nxtBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                selectedDate = selectedDate.plusDays(1);
-                setDView();
+        nxtBtn.setOnClickListener(view -> {
+            selectedDate = selectedDate.plusDays(1);
+            setDView();
 
-            }
         });
-        nEvent.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent nEvent = new Intent(DailyCalendarActivity.this, EventEditActivity.class);
-                startActivity(nEvent);
+        nEvent.setOnClickListener(view -> {
+            Intent nEvent1 = new Intent(DailyCalendarActivity.this, EventEditActivity.class);
+            startActivity(nEvent1);
 
-            }
         });
 
     }

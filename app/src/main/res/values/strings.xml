@@ -36,7 +36,7 @@
     <string name="sat">СБ</string>
     <string name="newEvent">добавить новое событие</string>
     <string name="changingTheme">Изменить тему:</string>
-    <string name="change_to_dark_mode">Включить темную тему:</string>
+    <string name="change_to_dark_mode">Изменить тему приложения?</string>
     <string name="to_weekly_plan">к плану на неделю</string>
     <string name="suturnday">Суббота</string>
     <string name="save">Сохранить</string>
@@ -58,4 +58,5 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="events">Событие:</string>
+    <string name="changetheme">Изменить тему</string>
 </resources>
