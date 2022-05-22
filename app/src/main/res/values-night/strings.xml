@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Заметки</string>
+    <string name="app_name">Simple Note</string>
     <string name="search_notes">Искать в заметках</string>
     <string name="note_title">Заголовок</string>
     <string name="note_subtitle">Подзаголовок</string>

@@ -32,9 +32,9 @@ public class SettingsActivity extends AppCompatActivity {
     static private boolean themeChangingClicked = false;
 
     AlertDialog changeThemeDlg;
-    CheckBox ThemeSwitching;
     TextView cnl;
     TextView change;
+
 
 
     @Override
@@ -43,13 +43,26 @@ public class SettingsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_settings);
         ImageView imgBack = findViewById(R.id.imgBackSettings);
         LinearLayout themeChange = findViewById(R.id.SettingTheme);
+        LinearLayout abApp = findViewById(R.id.abApp);
+
+
         imgBack.setOnClickListener(view -> onBackPressed());
+        abApp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent abApp = new Intent(SettingsActivity.this, AboutAppActivity.class);
+                startActivity(abApp);
+            }
+        });
+
         themeChange.setOnClickListener(view -> {
             themeChangingClicked = true;
             showThemeChangingDialog();
 
 
         });
+
+
 
     }
     private void showThemeChangingDialog(){

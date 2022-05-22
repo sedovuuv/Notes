@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Заметки</string>
+    <string name="app_name">Simple Note</string>
     <string name="search_notes">Искать в заметках</string>
     <string name="note_title">Заголовок</string>
     <string name="note_subtitle">Подзаголовок</string>
@@ -59,4 +59,5 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="events">Событие:</string>
     <string name="changetheme">Изменить тему</string>
+    <string name="version">Версия 1.0.0</string>
 </resources>
