@@ -34,12 +34,12 @@ public class Event {
 
 
     private String name;
-    private LocalDate date;
+    private LocalDate eDate;
     private LocalTime time;
 
     public Event(String name, LocalDate date, LocalTime time) {
         this.name = name;
-        this.date = date;
+        this.eDate = date;
         this.time = time;
     }
 
@@ -52,11 +52,11 @@ public class Event {
     }
 
     public LocalDate getDate() {
-        return date;
+        return eDate;
     }
 
     public void setDate(LocalDate date) {
-        this.date = date;
+        this.eDate = date;
     }
 
     public LocalTime getTime() {

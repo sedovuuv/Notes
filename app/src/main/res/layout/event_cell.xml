@@ -6,15 +6,15 @@
     android:layout_height="@dimen/_50sdp"
     android:background="@color/colorPrimary">
 
-    <TextView
+    <CheckBox
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:layout_marginStart="@dimen/_15sdp"
-        android:id="@+id/eventCell"
-        android:textSize="@dimen/_15ssp"
+        android:layout_height="wrap_content"
+        android:text="@string/event"
         android:textColor="@color/colorBlack"
-        android:fontFamily="@font/ubuntu_regular"
-        android:text="@string/event"/>
+        android:textSize="@dimen/_15ssp"
+        android:id="@+id/eventCell"
+        />
+
+
 
 </LinearLayout>

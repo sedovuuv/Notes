@@ -41,7 +41,7 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import java.util.Date;
 import java.util.Locale;
 
-public class CreateNoteActivity extends AppCompatActivity {
+public class    CreateNoteActivity extends AppCompatActivity {
 
     private EditText inputNTitle, inputNSubtitle, inputNText;
     private TextView txtDateTime;
@@ -326,6 +326,14 @@ public class CreateNoteActivity extends AppCompatActivity {
         loutChanging.findViewById(R.id.loutAddUrl).setOnClickListener(view -> {
             btmSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
             showURLDialog();
+        });
+        loutChanging.findViewById(R.id.loutCheckBox).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btmSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
+
+
+            }
         });
 
         if(alreadyAvailableNote != null){

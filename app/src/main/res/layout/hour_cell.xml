@@ -23,7 +23,8 @@
         android:padding="@dimen/_5sdp"
         android:backgroundTint="@color/colorPrimary">
 
-        <TextView
+        <CheckBox
+
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_margin="@dimen/_5sdp"
@@ -36,34 +37,6 @@
             android:textColor="@color/colorBlack"
             android:fontFamily="@font/ubuntu_bold"
             android:text="@string/event1"/>
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_margin="@dimen/_5sdp"
-            android:background="@color/colorSBackround"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:id="@+id/event2"
-            android:textSize="@dimen/_9ssp"
-            android:lines="2"
-            android:textColor="@color/colorBlack"
-            android:fontFamily="@font/ubuntu_bold"
-            android:text="@string/event2"/>
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_margin="@dimen/_5sdp"
-            android:background="@color/colorSBackround"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:id="@+id/event3"
-            android:textSize="@dimen/_9ssp"
-            android:lines="2"
-            android:textColor="@color/colorBlack"
-            android:fontFamily="@font/ubuntu_bold"
-            android:text="@string/event3"/>
 
     </LinearLayout>
 
