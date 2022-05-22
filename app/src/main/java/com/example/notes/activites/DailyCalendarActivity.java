@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -28,7 +29,7 @@ public class DailyCalendarActivity extends AppCompatActivity {
     private TextView mnthDTxt;
     private TextView dayOfWeekTxt;
     private ListView hourLView;
-
+    private ImageView BtnBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +41,8 @@ public class DailyCalendarActivity extends AppCompatActivity {
         ImageButton prevBtn = findViewById(R.id.prevDayAction);
         ImageButton nxtBtn = findViewById(R.id.nxtDatAction);
         Button nEvent = findViewById(R.id.nEventAction);
+        BtnBack = findViewById(R.id.imgBackDCalendar);
+        BtnBack.setOnClickListener(view -> onBackPressed());
 
         prevBtn.setOnClickListener(view -> {
             selectedDate = selectedDate.minusDays(1);
