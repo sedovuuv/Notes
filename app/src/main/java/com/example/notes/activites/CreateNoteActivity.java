@@ -49,6 +49,7 @@ public class    CreateNoteActivity extends AppCompatActivity {
     private ImageView imgNote;
     private TextView txtURL;
     private LinearLayout loutURL;
+    private LinearLayout loutCheck;
 
     private String selectedNColor;
     private String selectedImgPath;
@@ -78,6 +79,7 @@ public class    CreateNoteActivity extends AppCompatActivity {
         imgNote = findViewById(R.id.imgNote);
         txtURL = findViewById(R.id.textURL);
         loutURL = findViewById(R.id.loutURL);
+        loutCheck = findViewById(R.id.loutCheckBox);
 
 
 
@@ -331,6 +333,8 @@ public class    CreateNoteActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 btmSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
+                loutCheck.setVisibility(View.VISIBLE);
+
 
 
             }

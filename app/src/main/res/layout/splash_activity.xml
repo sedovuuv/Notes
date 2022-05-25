@@ -12,26 +12,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="@string/app_name"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="SIMPLE NOTE"
         android:textColor="@color/colorBlack"
         android:textSize="30sp"
-        android:fontFamily="@font/ubuntu_medium"
-        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.432" />
 
     <ImageView
         android:layout_width="227dp"
         android:layout_height="204dp"
-        android:src="@drawable/ic_simple_note"
+        android:src="@drawable/simple_note"
         app:layout_constraintBottom_toTopOf="@+id/tasks"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

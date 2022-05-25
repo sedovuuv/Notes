@@ -35,6 +35,9 @@ public class Note implements Serializable{
     @ColumnInfo(name = "web_link")
     private String webLink;
 
+
+
+
     public void setId(int id) {
         this.id = id;
     }

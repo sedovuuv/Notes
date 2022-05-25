@@ -55,7 +55,7 @@
                 android:background="@null"
                 android:textStyle="bold"
                 android:id="@+id/prevMnthAction"
-                />
+                android:contentDescription="@string/app_name" />
 
             <TextView
                 android:id="@+id/mnthYear"
@@ -78,7 +78,7 @@
                 android:background="@null"
                 android:textStyle="bold"
                 android:id="@+id/nxtMnthAction"
-                />
+                android:contentDescription="@string/app_name" />
 
         </LinearLayout>
 
