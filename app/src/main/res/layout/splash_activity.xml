@@ -14,7 +14,7 @@
 
         android:fontFamily="@font/ubuntu_bold"
         android:gravity="center"
-        android:text="SIMPLE NOTE"
+        android:text="NOTEBOOK"
         android:textColor="@color/colorBlack"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -1,31 +1,31 @@
 package com.example.notes.activites;
 
 import androidx.annotation.NonNull;
-    import androidx.annotation.Nullable;
-    import androidx.appcompat.app.AlertDialog;
-    import androidx.appcompat.app.AppCompatActivity;
-    import androidx.core.app.ActivityCompat;
-    import androidx.core.content.ContextCompat;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
-    import android.Manifest;
-    import android.annotation.SuppressLint;
-    import android.content.Intent;
-    import android.content.pm.PackageManager;
-    import android.database.Cursor;
-    import android.graphics.Bitmap;
-    import android.graphics.BitmapFactory;
-    import android.graphics.Color;
-    import android.graphics.drawable.ColorDrawable;
-    import android.graphics.drawable.GradientDrawable;
-    import android.net.Uri;
-    import android.os.AsyncTask;
+import android.Manifest;
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.GradientDrawable;
+import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
-    import android.provider.MediaStore;
-    import android.util.Patterns;
-    import android.view.LayoutInflater;
-    import android.view.View;
-    import android.view.ViewGroup;
-    import android.widget.EditText;
+import android.provider.MediaStore;
+import android.util.Patterns;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -36,12 +36,12 @@ import com.example.notes.database.NotesDatabase;
 import com.example.notes.entities.Note;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
-    import java.io.InputStream;
-    import java.text.SimpleDateFormat;
+import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class    CreateNoteActivity extends AppCompatActivity {
+public class CreateNoteActivity extends AppCompatActivity {
 
     private EditText inputNTitle, inputNSubtitle, inputNText;
     private TextView txtDateTime;
@@ -49,7 +49,6 @@ public class    CreateNoteActivity extends AppCompatActivity {
     private ImageView imgNote;
     private TextView txtURL;
     private LinearLayout loutURL;
-    private LinearLayout loutCheck;
 
     private String selectedNColor;
     private String selectedImgPath;
@@ -79,7 +78,7 @@ public class    CreateNoteActivity extends AppCompatActivity {
         imgNote = findViewById(R.id.imgNote);
         txtURL = findViewById(R.id.textURL);
         loutURL = findViewById(R.id.loutURL);
-        loutCheck = findViewById(R.id.loutCheckBox);
+
 
 
 
@@ -329,16 +328,6 @@ public class    CreateNoteActivity extends AppCompatActivity {
             btmSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
             showURLDialog();
         });
-        loutChanging.findViewById(R.id.loutCheckBox).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                btmSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
-                loutCheck.setVisibility(View.VISIBLE);
-
-
-
-            }
-        });
 
         if(alreadyAvailableNote != null){
             loutChanging.findViewById(R.id.loutNDelete).setVisibility(View.VISIBLE);
@@ -453,7 +442,7 @@ public class    CreateNoteActivity extends AppCompatActivity {
     private void showURLDialog(){
         if(dialogAddURL == null){
             AlertDialog.Builder builder = new AlertDialog.Builder(CreateNoteActivity.this);
-            View v = LayoutInflater.from(this).inflate(R.layout.lout_add_url, (ViewGroup) findViewById(R.id.loutAddUrlContainer));
+            View v = LayoutInflater.from(this).inflate(R.layout.lout_add_url, findViewById(R.id.loutAddUrlContainer));
             builder.setView(v);
 
             dialogAddURL = builder.create();

@@ -147,7 +147,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:visibility="gone"
-                app:layout_constraintTop_toBottomOf="@id/inputNSubtitle">
+                app:layout_constraintTop_toBottomOf="@id/imgNote">
                 <TextView
                     android:id="@+id/textURL"
                     android:layout_width="0dp"
@@ -168,41 +168,7 @@
                     app:tint="@color/colorBlack" />
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/loutCheckBox"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_40sdp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal"
-                android:visibility="gone"
-                android:layout_marginTop="@dimen/_40sdp"
-                android:layout_marginStart="@dimen/_10sdp"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="0dp"
-                app:layout_constraintTop_toBottomOf="@+id/inputNSubtitle">
 
-                <CheckBox
-                    android:id="@+id/checkbox"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:autoLink="web"
-                    android:fontFamily="@font/ubuntu_regular"
-                    android:includeFontPadding="false"
-                    android:textSize="@dimen/_13ssp" />
-                <EditText
-                    android:id="@+id/textCheck"
-                    android:layout_width="@dimen/_260sdp"
-                    android:layout_height="match_parent"
-                    android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_delete"
-                    android:minHeight="@dimen/_30sdp"
-                    android:textSize="@dimen/_13sdp"
-                    app:tint="@color/colorBlack"
-                    tools:layout_editor_absoluteX="36dp"
-                    tools:layout_editor_absoluteY="71dp" />
-
-            </LinearLayout>
 
             <EditText
                 android:layout_width="match_parent"
@@ -224,7 +190,7 @@
                 android:textColorHint="@color/colorTextHint"
                 android:textSize="@dimen/_13ssp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/loutCheckBox"/>
+                app:layout_constraintTop_toBottomOf="@id/loutURL"/>
 
 
 

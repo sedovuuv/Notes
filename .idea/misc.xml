@@ -24,6 +24,7 @@
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/baclgr_delete.xml" value="0.22697368421052633" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_add_btn.xml" value="0.21447368421052632" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_add_btn_light.xml" value="0.19473684210526315" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_btn.xml" value="0.22417153996101363" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_delete.xml" value="0.21447368421052632" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_dialog.xml" value="0.21447368421052632" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_done_btn.xml" value="0.15756578947368421" />
@@ -35,6 +36,7 @@
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_note_color5.xml" value="0.14276315789473684" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_search.xml" value="0.21447368421052632" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/bgr_subtitle_indicator.xml" value="0.21447368421052632" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/btn_br.xml" value="0.22417153996101363" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_add.xml" value="0.23223684210526316" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_back.xml" value="0.23223684210526316" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_calendar.xml" value="0.21447368421052632" />
@@ -48,6 +50,7 @@
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_settings.xml" value="0.21447368421052632" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/drawable/icon.xml" value="0.22697368421052633" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_about_app.xml" value="0.33" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_alarm.xml" value="0.1" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_calendar.xml" value="0.22" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_create_note.xml" value="0.2" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_daily_calendar.xml" value="0.21" />
@@ -62,15 +65,23 @@
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/event_cell.xml" value="0.33" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/event_edit.xml" value="0.16447368421052633" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/hour_cell.xml" value="0.25" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/item_checkbox.xml" value="0.13519736842105262" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/item_container_note.xml" value="0.18" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_add_url.xml" value="0.21414473684210528" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_calendar.xml" value="0.22" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_calview.xml" value="0.21414473684210528" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_changer.xml" value="0.20164473684210527" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_changing_themes.xml" value="0.25" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_complited.xml" value="0.21414473684210528" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_delete_note.xml" value="0.21414473684210528" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_delete_task.xml" value="0.25180722891566265" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_miscellan.xml" value="0.19063545150501673" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/lout_task_editor.xml" value="0.25" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/settings_activity.xml" value="0.20164473684210527" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/splash_activity.xml" value="0.10789473684210527" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/task_activity.xml" value="0.33" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/layout/task_items.xml" value="0.22" />
+        <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/menu/menu.xml" value="0.21414473684210528" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23585526315789473" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23585526315789473" />
         <entry key="..\:/Users/Anna/AndroidStudioProjects/Notes/app/src/main/res/mipmap-anydpi-v26/ic_sNote.xml" value="0.13651315789473684" />

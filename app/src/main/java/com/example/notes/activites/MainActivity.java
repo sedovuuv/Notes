@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
         ImageView imgSettings = findViewById(R.id.imgSettings);
 
         imgCalendar.setOnClickListener(view -> {
-            Intent calendar = new Intent(MainActivity.this, CalendarActivity.class);
+            Intent calendar = new Intent(MainActivity.this, TaskActivity.class);
             startActivity(calendar);
 
         });

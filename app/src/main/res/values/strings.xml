@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Simple Note</string>
+    <string name="app_name">Notebook</string>
     <string name="search_notes">Искать в заметках</string>
     <string name="note_title">Заголовок</string>
     <string name="note_subtitle">Подзаголовок</string>
@@ -60,4 +60,31 @@
     <string name="events">Событие:</string>
     <string name="changetheme">Изменить тему</string>
     <string name="version">Версия 1.0.0</string>
+    <string name="close">Закрыть</string>
+    <string name="all_tasks">Все задачи:</string>
+    <string name="add_task">Добавить задачу</string>
+    <string name="fillup_tasks">Заполните следущие пункты, чтобы добавить задачу</string>
+    <string name="title_task">Заголовок задачи</string>
+    <string name="discrp">Описание</string>
+    <string name="Date">Дата</string>
+    <string name="add_event">Добавить событие</string>
+    <string name="complited">Вы завершили эту задачу!</string>
+    <string name="done">Сделано</string>
+    <string name="all_see_tasks">Ко всем задачам</string>
+    <string name="month">Июнь</string>
+    <string name="compl">Завершено</string>
+    <string name="delete_confirmation">Подтвердите</string>
+    <string name="sureToDelete">Вы уверены что хотите удалить эту задачу?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="confirmation">Завершите задачу!..</string>
+    <string name="sureToMarkAsComplete">Вы уверены, что хотите завершить эту задачу?.</string>
+    <string name="congrats_you_have_completed_the_task_successfully">Вы завершили эту задачу!</string>
+
+    <string name="are_you_sure_you_want_to_delete_this_task">Вы уверен что хотите удалить эту задачу?</string>
+    <string name="delete_task">Удалить задачу</string>
+    <string name="comp">Завершить задачу</string>
+    <string name="cha">Изменить</string>
+    <string name="del">Удалить</string>
+
 </resources>

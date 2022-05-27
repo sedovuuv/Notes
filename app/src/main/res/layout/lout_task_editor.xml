@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/_25sdp"
+        android:paddingRight="@dimen/_25sdp"
+        android:paddingTop="@dimen/_30sdp"
+        android:paddingBottom="@dimen/_50sdp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/ic_add"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/add_task"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_20ssp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/fillup_tasks"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:alpha="0.8"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_marginStart="@dimen/_3sdp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:text="@string/title_task"
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:singleLine="true"
+            android:background="@drawable/btn_br"
+            android:padding="@dimen/_10sdp"
+            android:id="@+id/addTTitle"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_marginStart="@dimen/_3sdp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/discrp"
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:singleLine="true"
+            android:background="@drawable/btn_br"
+            android:padding="@dimen/_10sdp"
+            android:id="@+id/addTDescrp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_marginStart="@dimen/_3sdp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="@string/Date"
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@drawable/btn_br"
+            android:padding="10dp"
+            android:id="@+id/taskDate"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_marginStart="@dimen/_3sdp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="@string/time"
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:singleLine="true"
+            android:background="@drawable/btn_br"
+            android:padding="@dimen/_10sdp"
+            android:id="@+id/taskTime"
+            tools:ignore="MissingPrefix" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addTask"
+            android:text="@string/add_task"
+            android:background="@drawable/bgr_btn"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="@dimen/_40sdp" />
+
+    </LinearLayout>
+</ScrollView>
